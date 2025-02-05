@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CF2430-7506-45CC-8BC2-1047E646F1E0}|TextRPG\\TextRPG.csproj|c:\\users\\think\\desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\textrpg\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CF2430-7506-45CC-8BC2-1047E646F1E0}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CF2430-7506-45CC-8BC2-1047E646F1E0}|TextRPG\\TextRPG.csproj|c:\\users\\think\\desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\textrpg\\textrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CF2430-7506-45CC-8BC2-1047E646F1E0}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6CF2430-7506-45CC-8BC2-1047E646F1E0}|TextRPG\\TextRPG.csproj|c:\\users\\think\\desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\textrpg\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CF2430-7506-45CC-8BC2-1047E646F1E0}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\TextRPG\\Item.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Item.cs",
+              "ToolTip": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\TextRPG\\Item.cs",
+              "RelativeToolTip": "TextRPG\\Item.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswE8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T05:38:36.857Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\TextRPG\\Program.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Program.cs",
+              "ToolTip": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\TextRPG\\Program.cs",
+              "RelativeToolTip": "TextRPG\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T02:03:19.288Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\TextRPG\\Player.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Player.cs",
+              "ToolTip": "C:\\Users\\think\\Desktop\\\uB0B4\uC77C\uBC30\uC6C0\uCEA0\uD504\\c#\\TextRPG\\TextRPG\\Player.cs",
+              "RelativeToolTip": "TextRPG\\Player.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvzgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T12:50:12.836Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
