@@ -1,4 +1,4 @@
-﻿public class Item
+﻿public class Item // 아이템 클래스를 생성하여, 아이템이 쓰이는 함수들을 해당 파일에 전부 정리하였습니다
 {
     public string Name { get; set; } // 아이템 이름
     public string Type { get; set; } // 아이템 형식
@@ -51,7 +51,7 @@ class Inventory
         Console.Clear();
         Console.WriteLine("인벤토리\n보유 중인 아이템을 관리할 수 있습니다.\n");
         Console.WriteLine("[아이템 목록]");
-        for (int i = 0; i < Invenitems.Count; i++)
+        for (int i = 0; i < Invenitems.Count; i++)  // 아이템 목록을 List에서 참조하여 표시해줍니다 
         {
             string equipped = Invenitems[i].IsEquip ? "[E]" : "";
             Console.WriteLine($"{i + 1}. {equipped}{Invenitems[i].Name} | {Invenitems[i].Type} |{Invenitems[i].Value} | {Invenitems[i].Description}");
@@ -65,14 +65,14 @@ class Inventory
         {
             ShowInventory();
             Console.Write("\n원하시는 아이템 번호를 입력해주세요 (0: 종료): ");
-            if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= Invenitems.Count)
+            if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= Invenitems.Count) // choice가 0보다 크고 아이템 목록보다 작을 때
             {
                 Invenitems[choice - 1].ToggleEquip();
-                Console.WriteLine($"{Invenitems[choice - 1].Name} {(Invenitems[choice - 1].IsEquip ? "장착" : "해제")} 완료!");
+                Console.WriteLine($"{Invenitems[choice - 1].Name} {(Invenitems[choice - 1].IsEquip ? "장착" : "해제")} 완료!"); // 장착 상태를 변경 할 수 있습니다
             }
             else if (choice == 0)
             {
-                break;
+                break; // 0을 입력하면 종료
             }
             else
             {
@@ -108,10 +108,10 @@ public class Store
         Console.WriteLine("[보유 골드]");
         Console.WriteLine($"Gold: {player.Gold}G\n");
         Console.WriteLine("[아이템 목록]");
-        for (int i = 0; i < storeitems.Count; i++)
+        for (int i = 0; i < storeitems.Count; i++) // 상점 아이템 목록을 List에서 참조하여 표시해줍니다
         {
             string priceText = storeitems[i].IsPurchased ? "구매완료" : $"{storeitems[i].Price}G";
-            Console.WriteLine($"{i + 1}. {storeitems[i].Name} | {storeitems[i].Type} | {storeitems[i].Value} | {storeitems[i].Description} | {priceText}");
+            Console.WriteLine($"{i + 1}. {storeitems[i].Name} | {storeitems[i].Type} | {storeitems[i].Value} | {storeitems[i].Description} | {priceText}"); // priceText는 구매완료 또는 가격을 표시합니다
         }
         Console.WriteLine("\n1. 아이템 구매하기\n2. 나가기");
     }
@@ -124,7 +124,7 @@ public class Store
             Console.Write("\n원하시는 아이템 번호를 입력해주세요 (0: 종료): ");
             if (int.TryParse(Console.ReadLine(), out int choice) && choice > 0 && choice <= storeitems.Count)
             {
-                if (storeitems[choice - 1].Price <= 800)
+                if (storeitems[choice - 1].Price <= 800) // 골드를 차감해서 구매할 수 있는 코드를 작성하고 싶은데 잘 모르겠습니다...
                 {
                     storeitems[choice - 1].TogglePurchase();
                     Console.WriteLine($"{storeitems[choice - 1].Name} 구매 완료!");
